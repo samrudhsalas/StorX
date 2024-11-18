@@ -31,28 +31,37 @@ Before you begin, ensure you have the following installed:
 ## **Project Structure**
 ```
 StorX/
-├── public/
-│   ├── index.html
-│   └── blockchain-bg.jpg
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Footer.js
-│   │   ├── About.js
-│   │   ├── Contact.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   └── UploadRetrieve.js
-│   ├── contracts/
-│   │   ├── StorX.json
-│   ├── App.js
-│   ├── futuristic.css
-│   ├── index.js
-├── contracts/
-│   ├── StorX.sol
-├── truffle-config.js
-├── package.json
-└── README.md
+├── build/                         # Build artifacts for smart contracts
+├── contracts/                     # Smart contract files
+│   ├── StorX.json                 # ABI for the smart contract
+│   ├── StorX.sol                  # Solidity smart contract
+├── node_modules/                  # Node.js dependencies
+├── public/                        # Public assets
+│   ├── blockchain-bg.jpg          # Background image for UI
+│   ├── index.html                 # Entry point for React app
+├── src/                           # Source code for the frontend
+│   ├── components/                # Reusable React components
+│   │   ├── About.css              # Styling for About component
+│   │   ├── About.js               # About component
+│   │   ├── Contact.css            # Styling for Contact component
+│   │   ├── Contact.js             # Contact component
+│   │   ├── Footer.css             # Styling for Footer
+│   │   ├── Footer.js              # Footer component
+│   │   ├── Navbar.css             # Styling for Navbar
+│   │   ├── Navbar.js              # Navigation bar
+│   ├── pages/                     # React pages
+│   │   ├── blockchain-bg.jpg      # Page-specific assets
+│   │   ├── Home.css               # Styling for Home page
+│   │   ├── Home.js                # Home page
+│   │   ├── UploadRetrieve.css     # Styling for UploadRetrieve page
+│   │   ├── UploadRetrieve.js      # File upload & retrieval page
+│   ├── App.js                     # Main application component
+│   ├── futuristic.css             # Global futuristic styles
+│   ├── index.js                   # Entry point for React
+├── package-lock.json              # NPM lockfile
+├── package.json                   # Project dependencies and scripts
+├── README.md                      # Documentation
+├── truffle-config.js              # Configuration for Truffle
 ```
 
 ---
