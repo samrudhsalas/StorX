@@ -1,0 +1,55 @@
+{
+    "contractName": "StorX",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_fileHash",
+            "type": "string"
+          }
+        ],
+        "name": "storeFile",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "retrieveFile",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "storedFileHash",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "networks": {
+      "11155111": {
+        "events": {},
+        "links": {},
+        "address": "YOUR_DEPLOYED_CONTRACT_ADDRESS",
+        "transactionHash": "YOUR_DEPLOYMENT_TRANSACTION_HASH"
+      }
+    },
+    "schemaVersion": "3.4.1",
+    "updatedAt": "2024-11-18T10:00:00.000Z"
+  }
+  

@@ -1,0 +1,85 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("../public/blockchain-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .navbar, .footer {
+    background-color: rgba(233, 26, 26, 0);
+    color: white;
+  }
+  
+  button {
+    background-color: #00ffcc;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #00e6b8;
+  } 
+   */
+
+   /* .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    width: 400px;
+  }
+  
+  .modal h2 {
+    margin-bottom: 16px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    margin: 0 10px;
+  }
+  
+  .fluorescent-button.cancel {
+    background: #ff4747;
+  }
+  
+  .fluorescent-button.cancel:hover {
+    background: #ff5e5e;
+  }
+ */
+
+
+ body {
+    background-color: #1a1a2e;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
