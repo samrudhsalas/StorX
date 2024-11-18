@@ -192,7 +192,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## **Contact**
 For further inquiries, feel free to reach out:
-- **Email**: samrudhsalas@example.com
+- **Email**: samrudhsalas@gmail.com
 - **GitHub**: [Your GitHub Profile](https://github.com/samrudhsalas)
 
 --- 
